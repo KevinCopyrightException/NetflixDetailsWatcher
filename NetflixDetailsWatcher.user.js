@@ -16,7 +16,7 @@
 
     console.log(vids);
 
-    vids.forEach(vid => {
-        vid.onhover = () => console.log("TEST");
-    });
+    for (let vid of vids) {
+        console.log(vid);
+    }
 })();
