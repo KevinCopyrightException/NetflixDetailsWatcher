@@ -30,10 +30,10 @@
             slideItem.onmouseover = (ev) => {
                 setTimeout(() => {
                     let expandButton = document.querySelector("[data-uia='expand-to-detail-button']");
-
+                    console.log(expandButton);
                     if (expandButton){
                         expandButton.onclick = (ev) => {
-                            setTimeout(() => {createInfoButtons();}, 600);
+                            setTimeout(() => {createInfoButtons();}, 1200);
                         };
                     }
                 }, 800);
