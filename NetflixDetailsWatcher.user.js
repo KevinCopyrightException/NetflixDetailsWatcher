@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Netflix Details Watcher
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description
 // @author       KG
 // @match        https://www.netflix.com/*
